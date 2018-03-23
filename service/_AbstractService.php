@@ -1,5 +1,5 @@
 <?php 
-
+require_once($_SERVER['DOCUMENT_ROOT'].'app_config.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . AppConfig::APP_DIR . 'vendor/autoload.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . AppConfig::APP_DIR .  'vendor/google/cloud-translate/TranslateClient.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . AppConfig::APP_DIR .  'vendor/google/apiclient/src/Google/Client.php');

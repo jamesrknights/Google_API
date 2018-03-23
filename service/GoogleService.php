@@ -1,6 +1,6 @@
 <?php 
 
-require_once($_SERVER['DOCUMENT_ROOT'] . AppConfig::APP_DIR . 'app_config.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'app_config.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . AppConfig::APP_DIR . 'service/_AbstractService.php');
 
 
